@@ -9,12 +9,12 @@
 - FFmpeg
 - unrar
 
-video_processing_project/
-│
-├── main.py               # Основной скрипт для обработки видео
-├── requirements.txt      # Файл для установки зависимостей
-├── README.md             # Инструкции по использованию
-└── example_archive.rar   # Пример архива (может быть удален или заменен вашим архивом)
+video_processing_project/   
+│   
+├── main.py               # Основной скрипт для обработки видео   
+├── requirements.txt      # Файл для установки зависимостей   
+├── README.md             # Инструкции по использованию   
+└── example_archive.rar   # Пример архива (может быть удален или заменен вашим архивом)   
 
 
 ## Установка зависимостей
@@ -23,17 +23,17 @@ video_processing_project/
 
 Сначала клонируйте репозиторий проекта (если он размещен на GitHub):
 
-    ```
+    ```sh
     git clone https://github.com/yourusername/video_processing_project.git
     cd video_processing_project
     ```
 
 2. Установите зависимости из `requirements.txt`:
 
-   ```
-   pip install -r requirements.txt
-   sudo apt-get install unrar
-   ```
+    ```
+    pip install -r requirements.txt
+    sudo apt-get install unrar
+    ```
 
 3. Установка FFmpeg
 
@@ -53,9 +53,10 @@ video_processing_project/
     python main.py путь/к/архиву.rar путь/к/выходному/файлу.mp4
     ```
 
-Пример:
+Пример:   
 
-    ``` python main.py example_archive.rar output.mp4
+    ```
+    python main.py example_archive.rar output.mp4
     ```
 
 
